@@ -21,8 +21,66 @@ module.exports = {
     ['SQL', 100],    
     ['Python', 40], 
   ],
-  positions: [
+  about: [
+    {
+      contents: `      
+      # (text, image, 3d, video) to (text, image, 3d, video)
+      ## Main tools:
+      
+      ollama
+      
+      stable diffusion, any frontend: 
+      
+      - comfyui 
+      
+      - automatic1111
+      
+      - forge  
+      
+      - fooocus
+      
+      ## Additional tools: 
+      [leonardo.ai](https://leonardo.ai/)
+      
+      [midjourney](https://www.midjourney.com/home)
+      
+      # Domain and tasks
+      ## Person or character
+      - Creating consistent character
+      - Pose generation
+      - Face swap
+      - Change outfits (clothes, jewelry, accessories)
+      
+      ## Interior and architecture design
+      
+      - Composition of objects and their details
+      - Background (adding and removal)
+      - Improving resolution
+      - Making grids (comparison of generated images with different configuration)
+      
+      ## Adding styles
+      - Letters and Logos, QR code, watermark
+      - Creating loras
+      - Inpaint and Oupaint        
+      `      
+
+    },      
   ],
   experience: [
+    {
+      header: 'University Lecturer',
+      company: 'Branch of Ural Federal University',
+      skills: ['teaching'],
+      period: 'Sep 2020 - Jun 2021 - full university year(two semesters)',
+      contents: `
+      I taught such disciplines as
+      - Information System's design
+      - High-level programming languages (Haskell)
+      - Databases
+      - Semantic networks
+
+      I curated numerous students' programming projects.
+`
+    }    
   ]
 };
