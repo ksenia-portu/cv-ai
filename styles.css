@@ -4,7 +4,6 @@
     --bs-body-color: #858585;
     --bs-body-color-rgb: 133, 133, 133;
     --light-color: #D9D9D9;
-    --dark-color: #7a7a7a;
     --bs-body-font-size: 1.2rem;
 }
 
@@ -125,7 +124,7 @@ h1, h2, h3, h4 {
 
 .fact-icon {
     width: 1em;
-    color: var(--dark-color);
+    color: var(--light-color);
     margin-right: 0.5rem;
 }
 
@@ -142,7 +141,7 @@ h1, h2, h3, h4 {
 
 .skills::after {
     display: block;
-    content: '•••••';
+    content: '••••';
     color: var(--light-color);
 }
 
@@ -155,6 +154,6 @@ h1, h2, h3, h4 {
 
 .skills-bar::after {
     display: block;
-    content: '•••••';
+    content: '••••';
     color: var(--bs-primary);
 }
